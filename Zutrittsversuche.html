@@ -1,18 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-    <title>Thimble Sample</title>
+    <title>Autohaus Nettmann</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Hello World</h1>
-    <p>
-      and I say hello again!
-    </p>
+    <header>
+        <ul>
+        <li a href=#> Zutrittsversuche</li>
+        <li a href="#"> Mitarbeiter</li>
+        <li a href="#"> Mietwagen</li>
+      </ul>
+      <img src="./img/logo_Nettmann.png" alt="Logo von der Firma Nettmann: 
+      Wie eine schraubschlüssel nach rechts offen, 
+      in blau, mit dem Namen Nettmann in Weiß geschrieben 
+      und ein Auto link im schraubschlüsselloch gezeichnet" width="150px">
+    </header>
+    <main>
+      <h1>Zutrittsversuche</h1>
+      <table border="2">
+        <thead>
+          <tr>
+            <th class="alignRight">ID</th>
+            <th>Uhrzeit</th>
+            <th class="alignCenter">Chip</th>
+            <th>Chip Besitzer</th>
+            <th>Tür</th>
+            <th>Ergebnis</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>99</td>
+            <td>202x-02-13 17:52:12</td>
+            <td>3</td>
+            <td>Schmidt</td>
+            <td>Eingang Lager</td>
+            <td>Zutritt abgelehnt</td>
+          </tr>
+          <tr> 
+            <td>100</td>
+            <td>202x-02-13 17:52:25</td>
+            <td>3</td>
+            <td>Schmidt</td>
+            <td>Eingang Lager</td>
+            <td>Zutritt abgelehnt</td>
+          </tr>
+          <tr>
+            <td>101</td>
+            <td>202x-02-14 07:11:20</td>
+            <td>1</td>
+            <td>Nettmann</td>
+            <td>Eingang Büro</td>
+            <td>Zutritt gestattet</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Es ist zu beachten, dass das RFID Systen sich noch in der TestPhase befindet! 
+      </p>
+      <hr>
+    </main>
+    <footer>
+      <h3>Kontakt:</h3>
+      <Ul>
+        <li>Ottostraße 22, 90762 Fürth</li>
+        <li>0911/11...</li>
+        <li>info@autohaus-nettmann.de</li>
+      </Ul>
+      <h3>Bankdaten:</h3>
+      <Ul>
+        <li>IBAN: DE76 1231 ...</li>
+        <li>Bic: 123</li>
+        <li>Institut: SuperBank</li>
+      </Ul>
+    </footer>
   </body>
 </html>
