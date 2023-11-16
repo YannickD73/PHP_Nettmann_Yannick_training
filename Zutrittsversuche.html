@@ -11,7 +11,78 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
   <body>
-    <nav>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo_Nettmann.png" alt="Logo" width="150" height="50"
+            class="d-inline-block align-text" >
+          AH Nettmann
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mitarbeiter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mietwagen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img id="Logo" src="./img/logo_Nettmann.png" align-text alt="Logo von der Firma Nettmann: 
+              Wie eine schraubschlüssel nach rechts offen, 
+              in blau, mit dem Namen Nettmann in Weiß geschrieben 
+              und ein Auto link im schraubschlüsselloch gezeichnet" width="150"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
+          aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mitarbeiter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mietwagen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!------------------ Alt: Ohne Bootstrap!
+      <nav>
         <ul>
         <li><a href="./Zutrittsversuche.html"> Zutrittsversuche</a></li>
         <li><a href="#"> Mitarbeiter</a></li>
@@ -22,6 +93,7 @@
       und ein Auto link im schraubschlüsselloch gezeichnet" width="150"></li>
     </ul>
     </nav>
+  ----------------------------------------------------->
     <main>
       <h1>Zutrittsversuche</h1>
       <table id="tblZutrittsversuche">
