@@ -6,24 +6,24 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-    <title>Autohaus Nettmann</title>
+    <title>Autohaus Nettmann Training</title>
     <link rel="stylesheet" href="css/Nettmann.css">
   </head>
   <body>
-    <header>
+    <nav>
         <ul>
-        <li a href=#> Zutrittsversuche</li>
-        <li a href="#"> Mitarbeiter</li>
-        <li a href="#"> Mietwagen</li>
-      </ul>
-      <img src="./img/logo_Nettmann.png" alt="Logo von der Firma Nettmann: 
+        <li><a href="./Zutrittsversuche.html"> Zutrittsversuche</a></li>
+        <li><a href="#"> Mitarbeiter</a></li>
+        <li><a href="#"> Mietwagen</a></li>
+      <li><img id="Logo" src="./img/logo_Nettmann.png" alt="Logo von der Firma Nettmann: 
       Wie eine schraubschlüssel nach rechts offen, 
       in blau, mit dem Namen Nettmann in Weiß geschrieben 
-      und ein Auto link im schraubschlüsselloch gezeichnet" width="150">
-    </header>
+      und ein Auto link im schraubschlüsselloch gezeichnet" width="150"></li>
+    </ul>
+    </nav>
     <main>
       <h1>Zutrittsversuche</h1>
-      <table border="2">
+      <table id="tblZutrittsversuche">
         <thead>
           <tr>
             <th class="alignRight">ID</th>
@@ -41,7 +41,7 @@
             <td>3</td>
             <td>Schmidt</td>
             <td>Eingang Lager</td>
-            <td>Zutritt abgelehnt</td>
+            <td class="abgelehnt">Zutritt abgelehnt</td>
           </tr>
           <tr> 
             <td>100</td>
@@ -49,7 +49,7 @@
             <td>3</td>
             <td>Schmidt</td>
             <td>Eingang Lager</td>
-            <td>Zutritt abgelehnt</td>
+            <td class="abgelehnt">Zutritt abgelehnt</td>
           </tr>
           <tr>
             <td>101</td>
@@ -57,7 +57,7 @@
             <td>1</td>
             <td>Nettmann</td>
             <td>Eingang Büro</td>
-            <td>Zutritt gestattet</td>
+            <td class="gestattet">Zutritt gestattet</td>
           </tr>
         </tbody>
       </table>
@@ -66,19 +66,23 @@
       </p>
       <hr>
     </main>
-    <footer>
-      <h3>Kontakt:</h3>
-      <Ul>
-        <li>Ottostraße 22, 90762 Fürth</li>
-        <li>0911/11...</li>
-        <li>info@autohaus-nettmann.de</li>
-      </Ul>
-      <h3>Bankdaten:</h3>
-      <Ul>
-        <li>IBAN: DE76 1231 ...</li>
-        <li>Bic: 123</li>
-        <li>Institut: SuperBank</li>
-      </Ul>
+    <footer class="row">
+      <div class="column">
+        <h3>Kontakt:</h3>
+        <Ul>
+          <li>Ottostraße 22, 90762 Fürth</li>
+          <li>0911/11...</li>
+          <li>info@autohaus-nettmann.de</li>
+        </Ul>
+      </div>
+      <div class="column">
+        <h3>Bankdaten:</h3>
+          <Ul>
+            <li>IBAN: DE76 1231 ...</li>
+            <li>Bic: 123</li>
+            <li>Institut: SuperBank</li>
+          </Ul>
+      </div>
     </footer>
   </body>
 </html>
